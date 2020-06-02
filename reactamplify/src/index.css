@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url("./images/spring-day.jpg");
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-color: lavender;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.spring-day {
+  background: url("./images/spring-day.jpg");
+  opacity: 0.2;
+}
+
+.summer-day {
+  background-image: url("./images/summer-day.jpg");
+}
+.winter-day {
+  background: url("./images/snow-day.jpg");
+  opacity: 0.5;
+}
